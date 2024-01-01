@@ -11,11 +11,15 @@ public class Ex11 {
 		int num = sc.nextInt();
 		int sum =0;
 		
-		if(num%2 == 0) {
-			for(int i = num; i>=0; i--) {
+		if(num%2 != 0) {
+			for(int i = num; i>=0; i=i-2) {
 				sum = sum + i;
-				System.out.println(sum);
-			}
+				
+			}System.out.println("결과값 " +sum);
+		} else {
+			for(int i = num; i>=0; i=i-2) {
+				sum = sum + i;
+			}System.out.println("결과값: " + sum);
 		}
 		
 		sc.close();

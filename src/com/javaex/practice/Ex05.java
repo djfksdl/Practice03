@@ -12,8 +12,8 @@ public class Ex05 {
 			if(i>=5) {
 				flag = false;
 			}
-			System.out.println(i);
-			i= i+1;
+			System.out.println(i); // 1 2 3 4 5
+			i= i+1; 
 		}
 
 	}

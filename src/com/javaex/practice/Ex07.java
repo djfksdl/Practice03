@@ -12,12 +12,12 @@ public class Ex07 {
 		System.out.println("숫자를 입력하세요");
 		int no = sc.nextInt();
 		
-		for(int y= 1; y<= no; y++) {
+		for(int y= 1; y<= no; y++) { // 입력한 숫자만큼의 세로줄이 나옴
 			
-			for(int x =1; x<= y; x++) {
+			for(int x =1; x<= y; x++) { //세로줄에 따른 가로줄 숫자가 쓰여짐
 				System.out.print(y);				
 			}
-			System.out.println("");
+			System.out.println(" ");
 		}
 		
 		sc.close();
